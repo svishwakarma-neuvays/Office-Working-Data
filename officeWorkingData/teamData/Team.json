@@ -1,0 +1,876 @@
+[
+    [
+        {
+            "teamId": 46,
+            "teamName": "sap(sunpreet)",
+            "users": [
+                164,
+                148,
+                154,
+                171,
+                144
+            ],
+            "managers": [
+                144,
+                354
+            ]
+        },
+        {
+            "teamId": 48,
+            "teamName": "Sap (Divyansh D.)",
+            "users": [
+                150,
+                156,
+                160
+            ],
+            "managers": [
+                170,
+                354
+            ]
+        },
+        {
+            "teamId": 49,
+            "teamName": "Sap (Amit Bhorse)",
+            "users": [
+                161,
+                157,
+                166
+            ],
+            "managers": [
+                157,
+                354
+            ]
+        },
+        {
+            "teamId": 51,
+            "teamName": "SAP(Priyanka Gobhil)",
+            "users": [
+                209,
+                170
+            ],
+            "managers": [
+                206,
+                354
+            ]
+        },
+        {
+            "teamId": 52,
+            "teamName": "Sap(Mayank)",
+            "users": [
+                153,
+                145,
+                215
+            ],
+            "managers": [
+                210,
+                354
+            ]
+        },
+        {
+            "teamId": 54,
+            "teamName": "Sap(Gaurav Mishra)",
+            "users": [
+                153,
+                275
+            ],
+            "managers": [
+                183,
+                354
+            ]
+        },
+        {
+            "teamId": 55,
+            "teamName": "IT",
+            "users": [
+                262
+            ],
+            "managers": [
+                183,
+                203
+            ]
+        },
+        {
+            "teamId": 69,
+            "teamName": "SAP (Udit)",
+            "users": [
+                169,
+                155,
+                158
+            ],
+            "managers": [
+                145,
+                354
+            ]
+        },
+        {
+            "teamId": 70,
+            "teamName": "Freelancer",
+            "users": [
+                288
+            ],
+            "managers": []
+        },
+        {
+            "teamId": 71,
+            "teamName": "PMO",
+            "users": [
+                300
+            ],
+            "managers": [
+                203
+            ]
+        },
+        {
+            "teamId": 72,
+            "teamName": "PVH Development ",
+            "users": [
+                138,
+                140,
+                254,
+                143,
+                288,
+                301,
+                141
+            ],
+            "managers": [
+                203
+            ]
+        },
+        {
+            "teamId": 75,
+            "teamName": "Great Eastern",
+            "users": [
+                161,
+                170,
+                150
+            ],
+            "managers": [
+                189
+            ]
+        },
+        {
+            "teamId": 78,
+            "teamName": "RPA",
+            "users": [
+                199
+            ],
+            "managers": [
+                183
+            ]
+        },
+        {
+            "teamId": 80,
+            "teamName": "Sap (Shah Aziz)",
+            "users": [
+                343
+            ],
+            "managers": [
+                221,
+                354
+            ]
+        },
+        {
+            "teamId": 81,
+            "teamName": "Manali",
+            "users": [],
+            "managers": [
+                207,
+                204
+            ]
+        },
+        {
+            "teamId": 82,
+            "teamName": "Sales (Santosh)",
+            "users": [
+                349,
+                408
+            ],
+            "managers": [
+                189
+            ]
+        },
+        {
+            "teamId": 88,
+            "teamName": "Development",
+            "users": [
+                141,
+                255,
+                281,
+                142,
+                139,
+                134,
+                147,
+                143,
+                254,
+                138,
+                278,
+                304,
+                305,
+                297,
+                293,
+                294,
+                303,
+                295,
+                353,
+                357,
+                354,
+                352,
+                344,
+                398,
+                403,
+                382,
+                396,
+                389,
+                394,
+                381,
+                383,
+                358
+            ],
+            "managers": [
+                134,
+                354,
+                141
+            ]
+        },
+        {
+            "teamId": 89,
+            "teamName": "SAP (Amit Kedawat)",
+            "users": [
+                258
+            ],
+            "managers": [
+                148,
+                354
+            ]
+        },
+        {
+            "teamId": 96,
+            "teamName": "Spot/Petvays",
+            "users": [
+                196,
+                155,
+                298
+            ],
+            "managers": [
+                155
+            ]
+        },
+        {
+            "teamId": 97,
+            "teamName": "SAP -Priyanka Gobhil",
+            "users": [
+                157
+            ],
+            "managers": [
+                206,
+                354
+            ]
+        },
+        {
+            "teamId": 98,
+            "teamName": "Sales",
+            "users": [
+                189,
+                199,
+                190,
+                195,
+                198,
+                397,
+                192,
+                298,
+                196,
+                191,
+                183,
+                392
+            ],
+            "managers": [
+                183
+            ]
+        },
+        {
+            "teamId": 99,
+            "teamName": "Recruitment",
+            "users": [
+                280,
+                174,
+                179,
+                283,
+                177,
+                180,
+                291,
+                292,
+                185,
+                181,
+                362,
+                359,
+                182,
+                285,
+                290,
+                259,
+                260,
+                276,
+                176,
+                296,
+                289,
+                284,
+                406,
+                407,
+                405,
+                412,
+                409,
+                410
+            ],
+            "managers": [
+                176,
+                354
+            ]
+        },
+        {
+            "teamId": 100,
+            "teamName": "Marketig",
+            "users": [
+                189,
+                256
+            ],
+            "managers": [
+                183
+            ]
+        },
+        {
+            "teamId": 101,
+            "teamName": "HR",
+            "users": [
+                130,
+                132,
+                207
+            ],
+            "managers": [
+                204,
+                354,
+                201
+            ]
+        },
+        {
+            "teamId": 102,
+            "teamName": "accounts",
+            "users": [
+                201,
+                217
+            ],
+            "managers": [
+                217,
+                354,
+                204
+            ]
+        },
+        {
+            "teamId": 104,
+            "teamName": "Development (Abhinav)",
+            "users": [
+                305,
+                383,
+                382
+            ],
+            "managers": [
+                147
+            ]
+        },
+        {
+            "teamId": 105,
+            "teamName": "Development (Faisal)",
+            "users": [
+                294,
+                293,
+                297
+            ],
+            "managers": [
+                143
+            ]
+        },
+        {
+            "teamId": 106,
+            "teamName": "Development (Hind)",
+            "users": [
+                396,
+                352,
+                389,
+                394,
+                295,
+                353,
+                358
+            ],
+            "managers": [
+                138
+            ]
+        },
+        {
+            "teamId": 107,
+            "teamName": "Development (Parul)",
+            "users": [
+                304,
+                357,
+                142,
+                254,
+                278,
+                255
+            ],
+            "managers": [
+                141
+            ]
+        },
+        {
+            "teamId": 108,
+            "teamName": "Development (Umang)",
+            "users": [
+                381,
+                281
+            ],
+            "managers": [
+                403
+            ]
+        },
+        {
+            "teamId": 109,
+            "teamName": "Mckinsol website",
+            "users": [],
+            "managers": []
+        }
+    ],
+    [
+        {
+            "teamId": 46,
+            "teamName": "sap(sunpreet)",
+            "users": [
+                164,
+                148,
+                154,
+                171,
+                144
+            ],
+            "managers": [
+                144,
+                354
+            ]
+        },
+        {
+            "teamId": 48,
+            "teamName": "Sap (Divyansh D.)",
+            "users": [
+                150,
+                156,
+                160
+            ],
+            "managers": [
+                170,
+                354
+            ]
+        },
+        {
+            "teamId": 49,
+            "teamName": "Sap (Amit Bhorse)",
+            "users": [
+                161,
+                157,
+                166
+            ],
+            "managers": [
+                157,
+                354
+            ]
+        },
+        {
+            "teamId": 51,
+            "teamName": "SAP(Priyanka Gobhil)",
+            "users": [
+                209,
+                170
+            ],
+            "managers": [
+                206,
+                354
+            ]
+        },
+        {
+            "teamId": 52,
+            "teamName": "Sap(Mayank)",
+            "users": [
+                153,
+                145,
+                215
+            ],
+            "managers": [
+                210,
+                354
+            ]
+        },
+        {
+            "teamId": 54,
+            "teamName": "Sap(Gaurav Mishra)",
+            "users": [
+                153,
+                275
+            ],
+            "managers": [
+                183,
+                354
+            ]
+        },
+        {
+            "teamId": 55,
+            "teamName": "IT",
+            "users": [
+                262
+            ],
+            "managers": [
+                183,
+                203
+            ]
+        },
+        {
+            "teamId": 69,
+            "teamName": "SAP (Udit)",
+            "users": [
+                169,
+                155,
+                158
+            ],
+            "managers": [
+                145,
+                354
+            ]
+        },
+        {
+            "teamId": 70,
+            "teamName": "Freelancer",
+            "users": [
+                288
+            ],
+            "managers": []
+        },
+        {
+            "teamId": 71,
+            "teamName": "PMO",
+            "users": [
+                300
+            ],
+            "managers": [
+                203
+            ]
+        },
+        {
+            "teamId": 72,
+            "teamName": "PVH Development ",
+            "users": [
+                138,
+                140,
+                254,
+                143,
+                288,
+                301,
+                141
+            ],
+            "managers": [
+                203
+            ]
+        },
+        {
+            "teamId": 75,
+            "teamName": "Great Eastern",
+            "users": [
+                161,
+                170,
+                150
+            ],
+            "managers": [
+                189
+            ]
+        },
+        {
+            "teamId": 78,
+            "teamName": "RPA",
+            "users": [
+                199
+            ],
+            "managers": [
+                183
+            ]
+        },
+        {
+            "teamId": 80,
+            "teamName": "Sap (Shah Aziz)",
+            "users": [
+                343
+            ],
+            "managers": [
+                221,
+                354
+            ]
+        },
+        {
+            "teamId": 81,
+            "teamName": "Manali",
+            "users": [],
+            "managers": [
+                207,
+                204
+            ]
+        },
+        {
+            "teamId": 82,
+            "teamName": "Sales (Santosh)",
+            "users": [
+                349,
+                408
+            ],
+            "managers": [
+                189
+            ]
+        },
+        {
+            "teamId": 88,
+            "teamName": "Development",
+            "users": [
+                141,
+                255,
+                281,
+                142,
+                139,
+                134,
+                147,
+                143,
+                254,
+                138,
+                278,
+                304,
+                305,
+                297,
+                293,
+                294,
+                303,
+                295,
+                353,
+                357,
+                354,
+                352,
+                344,
+                398,
+                403,
+                382,
+                396,
+                389,
+                394,
+                381,
+                383,
+                358
+            ],
+            "managers": [
+                134,
+                354,
+                141
+            ]
+        },
+        {
+            "teamId": 89,
+            "teamName": "SAP (Amit Kedawat)",
+            "users": [
+                258
+            ],
+            "managers": [
+                148,
+                354
+            ]
+        },
+        {
+            "teamId": 96,
+            "teamName": "Spot/Petvays",
+            "users": [
+                196,
+                155,
+                298
+            ],
+            "managers": [
+                155
+            ]
+        },
+        {
+            "teamId": 97,
+            "teamName": "SAP -Priyanka Gobhil",
+            "users": [
+                157
+            ],
+            "managers": [
+                206,
+                354
+            ]
+        },
+        {
+            "teamId": 98,
+            "teamName": "Sales",
+            "users": [
+                189,
+                199,
+                190,
+                195,
+                198,
+                397,
+                192,
+                298,
+                196,
+                191,
+                183,
+                392
+            ],
+            "managers": [
+                183
+            ]
+        },
+        {
+            "teamId": 99,
+            "teamName": "Recruitment",
+            "users": [
+                280,
+                174,
+                179,
+                283,
+                177,
+                180,
+                291,
+                292,
+                185,
+                181,
+                362,
+                359,
+                182,
+                285,
+                290,
+                259,
+                260,
+                276,
+                176,
+                296,
+                289,
+                284,
+                406,
+                407,
+                405,
+                412,
+                409,
+                410
+            ],
+            "managers": [
+                176,
+                354
+            ]
+        },
+        {
+            "teamId": 100,
+            "teamName": "Marketig",
+            "users": [
+                189,
+                256
+            ],
+            "managers": [
+                183
+            ]
+        },
+        {
+            "teamId": 101,
+            "teamName": "HR",
+            "users": [
+                130,
+                132,
+                207
+            ],
+            "managers": [
+                204,
+                354,
+                201
+            ]
+        },
+        {
+            "teamId": 102,
+            "teamName": "accounts",
+            "users": [
+                201,
+                217
+            ],
+            "managers": [
+                217,
+                354,
+                204
+            ]
+        },
+        {
+            "teamId": 104,
+            "teamName": "Development (Abhinav)",
+            "users": [
+                305,
+                383,
+                382
+            ],
+            "managers": [
+                147
+            ]
+        },
+        {
+            "teamId": 105,
+            "teamName": "Development (Faisal)",
+            "users": [
+                294,
+                293,
+                297
+            ],
+            "managers": [
+                143
+            ]
+        },
+        {
+            "teamId": 106,
+            "teamName": "Development (Hind)",
+            "users": [
+                396,
+                352,
+                389,
+                394,
+                295,
+                353,
+                358
+            ],
+            "managers": [
+                138
+            ]
+        },
+        {
+            "teamId": 107,
+            "teamName": "Development (Parul)",
+            "users": [
+                304,
+                357,
+                142,
+                254,
+                278,
+                255
+            ],
+            "managers": [
+                141
+            ]
+        },
+        {
+            "teamId": 108,
+            "teamName": "Development (Umang)",
+            "users": [
+                381,
+                281
+            ],
+            "managers": [
+                403
+            ]
+        },
+        {
+            "teamId": 109,
+            "teamName": "Mckinsol website",
+            "users": [],
+            "managers": []
+        }
+    ]
+]

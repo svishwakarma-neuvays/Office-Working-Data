@@ -1,0 +1,126 @@
+[
+    {
+        "teamId": 46,
+        "teamName": "sap(sunpreet)",
+        "users": [
+            164,
+            148,
+            154,
+            171,
+            144
+        ],
+        "managers": [
+            144,
+            354
+        ]
+    },
+    {
+        "teamId": 48,
+        "teamName": "Sap (Divyansh D.)",
+        "users": [
+            150,
+            156,
+            160
+        ],
+        "managers": [
+            170,
+            354
+        ]
+    },
+    {
+        "teamId": 49,
+        "teamName": "Sap (Amit Bhorse)",
+        "users": [
+            161,
+            157,
+            166
+        ],
+        "managers": [
+            157,
+            354
+        ]
+    },
+    {
+        "teamId": 51,
+        "teamName": "SAP(Priyanka Gobhil)",
+        "users": [
+            209,
+            170
+        ],
+        "managers": [
+            206,
+            354
+        ]
+    },
+    {
+        "teamId": 52,
+        "teamName": "Sap(Mayank)",
+        "users": [
+            153,
+            145,
+            215
+        ],
+        "managers": [
+            210,
+            354
+        ]
+    },
+    {
+        "teamId": 54,
+        "teamName": "Sap(Gaurav Mishra)",
+        "users": [
+            153,
+            275
+        ],
+        "managers": [
+            183,
+            354
+        ]
+    },
+    {
+        "teamId": 69,
+        "teamName": "SAP (Udit)",
+        "users": [
+            169,
+            155,
+            158
+        ],
+        "managers": [
+            145,
+            354
+        ]
+    },
+    {
+        "teamId": 80,
+        "teamName": "Sap (Shah Aziz)",
+        "users": [
+            343
+        ],
+        "managers": [
+            221,
+            354
+        ]
+    },
+    {
+        "teamId": 89,
+        "teamName": "SAP (Amit Kedawat)",
+        "users": [
+            258
+        ],
+        "managers": [
+            148,
+            354
+        ]
+    },
+    {
+        "teamId": 97,
+        "teamName": "SAP -Priyanka Gobhil",
+        "users": [
+            157
+        ],
+        "managers": [
+            206,
+            354
+        ]
+    }
+]

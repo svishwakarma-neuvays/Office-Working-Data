@@ -1,0 +1,62 @@
+
+learn a programming lang - javascript - from javatpoint or tutuorialspoint
+
+learn linux - 
+    learn basic commands 
+    can use this resource - 
+    https://www.hostinger.com/tutorials/linux-commands
+
+APIs - 
+     REST APIs
+     like GET, POST, PUT, DELETE
+    resource - 
+    https://www.geeksforgeeks.org/rest-api-introduction/
+    https://aws.amazon.com/what-is/restful-api/
+
+Database - 
+    SQL Database and NoSQL Database
+     SQL - https://www.geeksforgeeks.org/difference-between-sql-and-nosql/
+     NoSQL - https://www.tutorialspoint.com/mongodb/index.htm
+
+Caching - all about this..
+    Radish
+    https://redis.io/docs/
+
+API client - postman
+
+Framework - nodejs, express.js
+    https://www.youtube.com/watch?v=Oe421EPjeBE
+
+Cloud Services - GCP, AWS, Azure
+
+Projects - 
+    start from basics - to-do list.. this can teach you crud operation
+
+
+learn javascript from this - 
+    https://eloquentjavascript.net/
+    https://eloquentjavascript.net/code/#0
+
+
+
+learn about headers and authorizations..
+
+complete naukari.com profile
+
+
+
+practice javascript - revise javascript concepts like map, and ES6 js like promises and promises.all and other all concepts..
+handle Concurrency in nodejs (https://betterprogramming.pub/concurrency-in-nodejs-40a0469d819f)
+learn SQL and MySQL with sequelize fully with practice on joins and relations like (many-to-one) and sql injection and all..
+learn mongodb, mongoose, mongosh and pratice it by creating backend projects..
+learn jwt tokens and practice them to make perfact
+learn websockets, socket.io, and practice it through the realtime backend application and implement it on the apis to make the apis faster and learn allabout it..
+then start learning html, css means frontend on path of react.
+basics of data structure and some common algorithms for the interviews.. 
+cloudnary, multer file upload , nodemailer
+scalability of server that handle the large amount of users
+dynamic link, firebase
+find and aggrigations
+deployement 
+movie - table no 1
+streaming

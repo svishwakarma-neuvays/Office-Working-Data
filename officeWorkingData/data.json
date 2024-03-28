@@ -1,0 +1,264 @@
+[
+    {
+        "employeeId": 94,
+        "punchIn": 1702301902086,
+        "punchOut": 1702301905094,
+        "date": "2023-12-11",
+        "totalWorkingHours": 0
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1702042840697,
+        "punchOut": 1702074646196,
+        "date": "2023-12-08",
+        "totalWorkingHours": 8.83
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701955446958,
+        "punchOut": 1701988237240,
+        "date": "2023-12-07",
+        "totalWorkingHours": 9.11
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701868783155,
+        "punchOut": 1701901926199,
+        "date": "2023-12-06",
+        "totalWorkingHours": 9.21
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701783001980,
+        "punchOut": 1701815432763,
+        "date": "2023-12-05",
+        "totalWorkingHours": 9.01
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701696310895,
+        "punchOut": 1701729068011,
+        "date": "2023-12-04",
+        "totalWorkingHours": 9.1
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701436139109,
+        "punchOut": 1701469830687,
+        "date": "2023-12-01",
+        "totalWorkingHours": 9.36
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701349259048,
+        "punchOut": 1701383441885,
+        "date": "2023-11-30",
+        "totalWorkingHours": 9.5
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701263582944,
+        "punchOut": 1701297063964,
+        "date": "2023-11-29",
+        "totalWorkingHours": 9.3
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701178349726,
+        "punchOut": 1701210956015,
+        "date": "2023-11-28",
+        "totalWorkingHours": 9.06
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1701090726520,
+        "punchOut": 1701124238930,
+        "date": "2023-11-27",
+        "totalWorkingHours": 9.31
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1700731833209,
+        "punchOut": 1700731836128,
+        "date": "2023-11-23",
+        "totalWorkingHours": 0
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1700660039404,
+        "punchOut": 1700692574564,
+        "date": "2023-11-22",
+        "totalWorkingHours": 9.04
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1700573364399,
+        "punchOut": 1700605813080,
+        "date": "2023-11-21",
+        "totalWorkingHours": 9.01
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1700486620624,
+        "punchOut": 1700519422998,
+        "date": "2023-11-20",
+        "totalWorkingHours": 9.11
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1700226940368,
+        "punchOut": 1700260262434,
+        "date": "2023-11-17",
+        "totalWorkingHours": 9.26
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1700140878770,
+        "punchOut": 1700173836689,
+        "date": "2023-11-16",
+        "totalWorkingHours": 9.15
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1699614662849,
+        "punchOut": null,
+        "date": "2023-11-10",
+        "totalWorkingHours": null
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1699535824995,
+        "punchOut": 1699570923983,
+        "date": "2023-11-09",
+        "totalWorkingHours": 9.75
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1699451240871,
+        "punchOut": 1699484485550,
+        "date": "2023-11-08",
+        "totalWorkingHours": 9.23
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1699364618027,
+        "punchOut": 1699398034784,
+        "date": "2023-11-07",
+        "totalWorkingHours": 9.28
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1699278763011,
+        "punchOut": 1699311842751,
+        "date": "2023-11-06",
+        "totalWorkingHours": 9.19
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1699016385584,
+        "punchOut": 1699049230065,
+        "date": "2023-11-03",
+        "totalWorkingHours": 9.12
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1698929964725,
+        "punchOut": 1698963158240,
+        "date": "2023-11-02",
+        "totalWorkingHours": 9.22
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1698757115728,
+        "punchOut": 1698789773870,
+        "date": "2023-10-31",
+        "totalWorkingHours": 9.07
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1698670622470,
+        "punchOut": 1698703217342,
+        "date": "2023-10-30",
+        "totalWorkingHours": 9.05
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1698411271536,
+        "punchOut": 1698444038229,
+        "date": "2023-10-27",
+        "totalWorkingHours": 9.1
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1698325076790,
+        "punchOut": 1698357841140,
+        "date": "2023-10-26",
+        "totalWorkingHours": 9.1
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1698238615904,
+        "punchOut": 1698271330774,
+        "date": "2023-10-25",
+        "totalWorkingHours": 9.09
+    },
+    {
+        "employeeId": 94,
+        "punchIn": 1698152128398,
+        "punchOut": 1698184841772,
+        "date": "2023-10-24",
+        "totalWorkingHours": 9.09
+    }
+]
+
+
+[
+    {
+        "convinceAndCalm_Id": 97,
+        "employeeId": 394,
+        "employeeName": "shashikant vishwakarma",
+        "cdate": "2023-12-13T16:06:34.000Z",
+        "udate": null,
+        "status": "New",
+        "reason": null,
+        "totalAmount": 650,
+        "travelData": [
+            {
+                "km": "50",
+                "from": "gurugram",
+                "amount": "500",
+                "comment": "Travel for office work.",
+                "whereTo": "jaipur",
+                "travelDate": "2023-12-05T14:02:12.901Z",
+                "vehicleType": "Car",
+                "approvedAmount":"400"
+            },
+            {
+                "km": "25",
+                "from": "Noida",
+                "amount": "150",
+                "comment": "Travel for office work.",
+                "whereTo": "Delhi",
+                "travelDate": "2023-12-05T14:02:12.901Z",
+                "vehicleType": "Car",
+                "approvedAmount":"100"
+            }
+        ],
+        "employeeManagerData": [
+            {
+                "managers": [
+                    134,
+                    354,
+                    141
+                ]
+            },
+            {
+                "managers": [
+                    138
+                ]
+            }
+        ],
+        "createdAt": "2023-12-13T16:06:34.000Z",
+        "updatedAt": "2023-12-13T16:06:34.000Z"
+    }
+]

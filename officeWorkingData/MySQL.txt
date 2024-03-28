@@ -1,0 +1,21 @@
+what is databse?
+so, Database is simply a structured collection on data.
+
+The data within the databse is naturally related like a product is related to product catgery and is associated with the multiple tags. Hence, we use the term Relationnal Database.
+
+In relational db we model data like product, category, tags etc using tables. A table contaions rows and coloumn, like spreadsheet.
+Tables can relate to another table using various relationship types like one-to-one, many-to-one.
+
+to handle the various works on the data we need SQL.
+
+SQL : SQL is the language of relational databse.
+      SQL stands for Structured Query language
+      SQL is the standardize language used to access relational databse.
+
+      sql contain three parts - 
+      1. DDL - Data Definition Language.... DDL includes the statements for defining the databse and its objects such as tables, triggers, stored procedures etc.
+      2. DML - Data manipulation Language.... DML contains the statements for updating and querying data.
+      3. DCL - Data Control Language.... DCL allows to grant the permission to user to access specific data in databse.
+
+      
+

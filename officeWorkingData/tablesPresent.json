@@ -1,0 +1,402 @@
+[
+    [
+        {
+            "Tables_in_HrPortal": "Attendances"
+        },
+        {
+            "Tables_in_HrPortal": "Documents"
+        },
+        {
+            "Tables_in_HrPortal": "EmployeeSA"
+        },
+        {
+            "Tables_in_HrPortal": "Employee_Data_Test1"
+        },
+        {
+            "Tables_in_HrPortal": "Employees"
+        },
+        {
+            "Tables_in_HrPortal": "Epics"
+        },
+        {
+            "Tables_in_HrPortal": "Feedbacks"
+        },
+        {
+            "Tables_in_HrPortal": "Full_Name_SA"
+        },
+        {
+            "Tables_in_HrPortal": "Full_Name_Test_Column_Names"
+        },
+        {
+            "Tables_in_HrPortal": "Monthly_Salaries"
+        },
+        {
+            "Tables_in_HrPortal": "New_Employee_Table"
+        },
+        {
+            "Tables_in_HrPortal": "Notes"
+        },
+        {
+            "Tables_in_HrPortal": "Organisations"
+        },
+        {
+            "Tables_in_HrPortal": "Otps"
+        },
+        {
+            "Tables_in_HrPortal": "Posts"
+        },
+        {
+            "Tables_in_HrPortal": "ProjectMembers"
+        },
+        {
+            "Tables_in_HrPortal": "Projects"
+        },
+        {
+            "Tables_in_HrPortal": "Reports"
+        },
+        {
+            "Tables_in_HrPortal": "SADB011923"
+        },
+        {
+            "Tables_in_HrPortal": "SANEW"
+        },
+        {
+            "Tables_in_HrPortal": "SalarySA"
+        },
+        {
+            "Tables_in_HrPortal": "Sprints"
+        },
+        {
+            "Tables_in_HrPortal": "Stories"
+        },
+        {
+            "Tables_in_HrPortal": "StoryTasks"
+        },
+        {
+            "Tables_in_HrPortal": "Tasks"
+        },
+        {
+            "Tables_in_HrPortal": "TeamAssigns"
+        },
+        {
+            "Tables_in_HrPortal": "Teams"
+        },
+        {
+            "Tables_in_HrPortal": "applyJobs"
+        },
+        {
+            "Tables_in_HrPortal": "assignItems"
+        },
+        {
+            "Tables_in_HrPortal": "atsCertifications"
+        },
+        {
+            "Tables_in_HrPortal": "atsEducationDetails"
+        },
+        {
+            "Tables_in_HrPortal": "atscvpools"
+        },
+        {
+            "Tables_in_HrPortal": "atsworkExperiences"
+        },
+        {
+            "Tables_in_HrPortal": "boards"
+        },
+        {
+            "Tables_in_HrPortal": "clientDetails"
+        },
+        {
+            "Tables_in_HrPortal": "clientLogos"
+        },
+        {
+            "Tables_in_HrPortal": "columnBoards"
+        },
+        {
+            "Tables_in_HrPortal": "contactUs"
+        },
+        {
+            "Tables_in_HrPortal": "convinceAndCalms"
+        },
+        {
+            "Tables_in_HrPortal": "customers"
+        },
+        {
+            "Tables_in_HrPortal": "events"
+        },
+        {
+            "Tables_in_HrPortal": "inventories"
+        },
+        {
+            "Tables_in_HrPortal": "jobs"
+        },
+        {
+            "Tables_in_HrPortal": "kras"
+        },
+        {
+            "Tables_in_HrPortal": "leaves"
+        },
+        {
+            "Tables_in_HrPortal": "logs"
+        },
+        {
+            "Tables_in_HrPortal": "managerRatings"
+        },
+        {
+            "Tables_in_HrPortal": "notifications"
+        },
+        {
+            "Tables_in_HrPortal": "nrfCategories"
+        },
+        {
+            "Tables_in_HrPortal": "nrfGroupRegisters"
+        },
+        {
+            "Tables_in_HrPortal": "nrfGroupTimeSlots"
+        },
+        {
+            "Tables_in_HrPortal": "nrfRegisters"
+        },
+        {
+            "Tables_in_HrPortal": "nrfTimeSlots"
+        },
+        {
+            "Tables_in_HrPortal": "postComments"
+        },
+        {
+            "Tables_in_HrPortal": "requestTickets"
+        },
+        {
+            "Tables_in_HrPortal": "roles"
+        },
+        {
+            "Tables_in_HrPortal": "salarystructures"
+        },
+        {
+            "Tables_in_HrPortal": "teamMembers"
+        },
+        {
+            "Tables_in_HrPortal": "testEpics"
+        },
+        {
+            "Tables_in_HrPortal": "ticketComments"
+        },
+        {
+            "Tables_in_HrPortal": "tickets"
+        },
+        {
+            "Tables_in_HrPortal": "userGroups"
+        },
+        {
+            "Tables_in_HrPortal": "users"
+        },
+        {
+            "Tables_in_HrPortal": "weeklyDashboards"
+        },
+        {
+            "Tables_in_HrPortal": "yearly_employee_leaves"
+        },
+        {
+            "Tables_in_HrPortal": "yearly_leaves"
+        }
+    ],
+    [
+        {
+            "Tables_in_HrPortal": "Attendances"
+        },
+        {
+            "Tables_in_HrPortal": "Documents"
+        },
+        {
+            "Tables_in_HrPortal": "EmployeeSA"
+        },
+        {
+            "Tables_in_HrPortal": "Employee_Data_Test1"
+        },
+        {
+            "Tables_in_HrPortal": "Employees"
+        },
+        {
+            "Tables_in_HrPortal": "Epics"
+        },
+        {
+            "Tables_in_HrPortal": "Feedbacks"
+        },
+        {
+            "Tables_in_HrPortal": "Full_Name_SA"
+        },
+        {
+            "Tables_in_HrPortal": "Full_Name_Test_Column_Names"
+        },
+        {
+            "Tables_in_HrPortal": "Monthly_Salaries"
+        },
+        {
+            "Tables_in_HrPortal": "New_Employee_Table"
+        },
+        {
+            "Tables_in_HrPortal": "Notes"
+        },
+        {
+            "Tables_in_HrPortal": "Organisations"
+        },
+        {
+            "Tables_in_HrPortal": "Otps"
+        },
+        {
+            "Tables_in_HrPortal": "Posts"
+        },
+        {
+            "Tables_in_HrPortal": "ProjectMembers"
+        },
+        {
+            "Tables_in_HrPortal": "Projects"
+        },
+        {
+            "Tables_in_HrPortal": "Reports"
+        },
+        {
+            "Tables_in_HrPortal": "SADB011923"
+        },
+        {
+            "Tables_in_HrPortal": "SANEW"
+        },
+        {
+            "Tables_in_HrPortal": "SalarySA"
+        },
+        {
+            "Tables_in_HrPortal": "Sprints"
+        },
+        {
+            "Tables_in_HrPortal": "Stories"
+        },
+        {
+            "Tables_in_HrPortal": "StoryTasks"
+        },
+        {
+            "Tables_in_HrPortal": "Tasks"
+        },
+        {
+            "Tables_in_HrPortal": "TeamAssigns"
+        },
+        {
+            "Tables_in_HrPortal": "Teams"
+        },
+        {
+            "Tables_in_HrPortal": "applyJobs"
+        },
+        {
+            "Tables_in_HrPortal": "assignItems"
+        },
+        {
+            "Tables_in_HrPortal": "atsCertifications"
+        },
+        {
+            "Tables_in_HrPortal": "atsEducationDetails"
+        },
+        {
+            "Tables_in_HrPortal": "atscvpools"
+        },
+        {
+            "Tables_in_HrPortal": "atsworkExperiences"
+        },
+        {
+            "Tables_in_HrPortal": "boards"
+        },
+        {
+            "Tables_in_HrPortal": "clientDetails"
+        },
+        {
+            "Tables_in_HrPortal": "clientLogos"
+        },
+        {
+            "Tables_in_HrPortal": "columnBoards"
+        },
+        {
+            "Tables_in_HrPortal": "contactUs"
+        },
+        {
+            "Tables_in_HrPortal": "convinceAndCalms"
+        },
+        {
+            "Tables_in_HrPortal": "customers"
+        },
+        {
+            "Tables_in_HrPortal": "events"
+        },
+        {
+            "Tables_in_HrPortal": "inventories"
+        },
+        {
+            "Tables_in_HrPortal": "jobs"
+        },
+        {
+            "Tables_in_HrPortal": "kras"
+        },
+        {
+            "Tables_in_HrPortal": "leaves"
+        },
+        {
+            "Tables_in_HrPortal": "logs"
+        },
+        {
+            "Tables_in_HrPortal": "managerRatings"
+        },
+        {
+            "Tables_in_HrPortal": "notifications"
+        },
+        {
+            "Tables_in_HrPortal": "nrfCategories"
+        },
+        {
+            "Tables_in_HrPortal": "nrfGroupRegisters"
+        },
+        {
+            "Tables_in_HrPortal": "nrfGroupTimeSlots"
+        },
+        {
+            "Tables_in_HrPortal": "nrfRegisters"
+        },
+        {
+            "Tables_in_HrPortal": "nrfTimeSlots"
+        },
+        {
+            "Tables_in_HrPortal": "postComments"
+        },
+        {
+            "Tables_in_HrPortal": "requestTickets"
+        },
+        {
+            "Tables_in_HrPortal": "roles"
+        },
+        {
+            "Tables_in_HrPortal": "salarystructures"
+        },
+        {
+            "Tables_in_HrPortal": "teamMembers"
+        },
+        {
+            "Tables_in_HrPortal": "testEpics"
+        },
+        {
+            "Tables_in_HrPortal": "ticketComments"
+        },
+        {
+            "Tables_in_HrPortal": "tickets"
+        },
+        {
+            "Tables_in_HrPortal": "userGroups"
+        },
+        {
+            "Tables_in_HrPortal": "users"
+        },
+        {
+            "Tables_in_HrPortal": "weeklyDashboards"
+        },
+        {
+            "Tables_in_HrPortal": "yearly_employee_leaves"
+        },
+        {
+            "Tables_in_HrPortal": "yearly_leaves"
+        }
+    ]
+]

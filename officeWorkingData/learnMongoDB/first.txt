@@ -1,0 +1,212 @@
+C:\SHASHI@neuvays\workingData>mongosh
+Current Mongosh Log ID: 65dcbf121b51cf4cf2609f2b
+Connecting to:          mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.5
+Using MongoDB:          7.0.5
+Using Mongosh:          2.1.5
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2024-02-26T21:27:40.396+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+test> show dbs
+admin     40.00 KiB
+config    92.00 KiB
+local     72.00 KiB
+students  72.00 KiB
+test> show dbs
+admin     40.00 KiB
+config    92.00 KiB
+local     72.00 KiB
+students  72.00 KiB
+test> use students
+switched to db students
+students> show collections
+data
+students> db.data.find()
+[
+  {
+    _id: ObjectId('65dcbb039a6067106f4189af'),
+    name: 'shashi',
+    age: 20
+  },
+  {
+    _id: ObjectId('65dcbbdb9a6067106f4189b0'),
+    name: 'shashi',
+    age: 20
+  },
+  { _id: ObjectId('65dcbbdb9a6067106f4189b1'), name: 'aman', age: 22 },
+  {
+    _id: ObjectId('65dcbca39a6067106f4189b2'),
+    name: 'shashi',
+    age: 20,
+    'course name': 'cs'
+  }
+]
+students> db.data.insertMany([[
+),
+...   {
+...     _id: ObjectId('65dcbb039a6067106f4189af'    name: 'shashi',
+  {
+Uncaught:
+SyntaxError: Unexpected token, expected "," (3:48)
+
+  1 | db.data.insertMany([[
+  2 |   {
+> 3 |     _id: ObjectId('65dcbb039a6067106f4189af'    name: 'shashi',
+    |                                                 ^
+  4 |
+
+students>     age: 20
+
+students> show dbs
+admin      40.00 KiB
+config    108.00 KiB
+local      72.00 KiB
+students   72.00 KiB
+students> use students
+already on db students
+students> show collections
+data
+students> data.find()
+ReferenceError: data is not defined
+students> db.data.find()
+[
+  {
+    _id: ObjectId('65dcbb039a6067106f4189af'),
+    name: 'shashi',
+    age: 20
+  },
+  {
+    _id: ObjectId('65dcbbdb9a6067106f4189b0'),
+    name: 'shashi',
+    age: 20
+  },
+  { _id: ObjectId('65dcbbdb9a6067106f4189b1'), name: 'aman', age: 22 },
+  {
+    _id: ObjectId('65dcbca39a6067106f4189b2'),
+    name: 'shashi',
+    age: 20,
+    'course name': 'cs'
+  }
+]
+students> data.insetOne({'add':'rajpur'})
+ReferenceError: data is not defined
+students> db.data.insetOne({'add':'rajpur'})
+TypeError: db.data.insetOne is not a function
+students> data.insertOne({'add':'rajpur'})
+ReferenceError: data is not defined
+students> db.data.insertOne({'add':'rajpur'})
+{
+  acknowledged: true,
+  insertedId: ObjectId('65dcc0391b51cf4cf2609f2c')
+}
+students> db.data.find()
+[
+  {
+    _id: ObjectId('65dcbb039a6067106f4189af'),
+    name: 'shashi',
+    age: 20
+  },
+  {
+    _id: ObjectId('65dcbbdb9a6067106f4189b0'),
+    name: 'shashi',
+    age: 20
+  },
+  { _id: ObjectId('65dcbbdb9a6067106f4189b1'), name: 'aman', age: 22 },
+  {
+    _id: ObjectId('65dcbca39a6067106f4189b2'),
+    name: 'shashi',
+    age: 20,
+    'course name': 'cs'
+  },
+  { _id: ObjectId('65dcc0391b51cf4cf2609f2c'), add: 'rajpur' }
+]
+students> db.data.insertMany([{'add':'shahganj'},{ _id: ObjectId('65dcc0391b51cf4cf2609f2c'), add: 'rampur' },{ add: 'sitapur' }])
+Uncaught:
+MongoBulkWriteError: E11000 duplicate key error collection: students.data index: _id_ dup key: { _id: ObjectId('65dcc0391b51cf4cf2609f2c') }
+Result: BulkWriteResult {
+  insertedCount: 1,
+  matchedCount: 0,
+  modifiedCount: 0,
+  deletedCount: 0,
+  upsertedCount: 0,
+  upsertedIds: {},
+  insertedIds: { '0': ObjectId('65dcc0ea1b51cf4cf2609f2d') }
+}
+Write Errors: [
+  WriteError {
+    err: {
+      index: 1,
+      code: 11000,
+      errmsg: "E11000 duplicate key error collection: students.data index: _id_ dup key: { _id: ObjectId('65dcc0391b51cf4cf2609f2c') }",
+      errInfo: undefined,
+      op: { _id: ObjectId('65dcc0391b51cf4cf2609f2c'), add: 'rampur' }
+    }
+  }
+]
+students> db.data.insertMany([{'add':'shahganj'},{ _id: ObjectId('65dcc0391b51cf4cf2609f2c'), add: 'rampur' },{ add: 'sitapur' }],{ordered:false})
+Uncaught:
+MongoBulkWriteError: E11000 duplicate key error collection: students.data index: _id_ dup key: { _id: ObjectId('65dcc0391b51cf4cf2609f2c') }
+Result: BulkWriteResult {
+  insertedCount: 2,
+  matchedCount: 0,
+  modifiedCount: 0,
+  deletedCount: 0,
+  upsertedCount: 0,
+  upsertedIds: {},
+  insertedIds: {
+    '0': ObjectId('65dcc1031b51cf4cf2609f2f'),
+    '2': ObjectId('65dcc1031b51cf4cf2609f30')
+  }
+}
+Write Errors: [
+  WriteError {
+    err: {
+      index: 1,
+      code: 11000,
+      errmsg: "E11000 duplicate key error collection: students.data index: _id_ dup key: { _id: ObjectId('65dcc0391b51cf4cf2609f2c') }",
+      errInfo: undefined,
+      op: { _id: ObjectId('65dcc0391b51cf4cf2609f2c'), add: 'rampur' }
+    }
+  }
+]
+students> db.data.find()
+[  
+  {
+    _id: ObjectId('65dcbb039a6067106f4189af'),
+    name: 'shashi',
+    age: 20
+  },
+  {
+    _id: ObjectId('65dcbbdb9a6067106f4189b0'),
+    name: 'shashi',
+    age: 20
+  },
+  { _id: ObjectId('65dcbbdb9a6067106f4189b1'), name: 'aman', age: 22 },
+  {
+    _id: ObjectId('65dcbca39a6067106f4189b2'),
+    name: 'shashi',
+    age: 20,
+    'course name': 'cs'
+  },
+  { _id: ObjectId('65dcc0391b51cf4cf2609f2c'), add: 'rajpur' },
+  { _id: ObjectId('65dcc0ea1b51cf4cf2609f2d'), add: 'shahganj' },
+  { _id: ObjectId('65dcc1031b51cf4cf2609f2f'), add: 'shahganj' },
+  { _id: ObjectId('65dcc1031b51cf4cf2609f30'), add: 'sitapur' }
+]
+students> db.data.findOne({'add':'shahgnaj'})
+null
+students> db.data.findOne({add:'shahgnaj'})
+null
+students> db.data.findOne({'add':'shahganj'})
+{ _id: ObjectId('65dcc0ea1b51cf4cf2609f2d'), add: 'shahganj' }
+students> db.data.find({'add':'shahganj'})
+[
+  { _id: ObjectId('65dcc0ea1b51cf4cf2609f2d'), add: 'shahganj' },
+  { _id: ObjectId('65dcc1031b51cf4cf2609f2f'), add: 'shahganj' }
+]
+students> db.data.findOne({'add':'shahganj'})
+{ _id: ObjectId('65dcc0ea1b51cf4cf2609f2d'), add: 'shahganj' }

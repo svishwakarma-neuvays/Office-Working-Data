@@ -1,0 +1,179 @@
+<ion-modal class="clientmodal" [isOpen]="isDisplayOpen" backdropDismiss="false">
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="end">
+          <ion-button (click)="displayClose()" [strong]="true">Close</ion-button>
+        </ion-buttons>
+        <ion-title>Client Details</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <!-- Personal Information Section -->
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Personal Information</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-item>
+            <ion-label position="stacked">Name:</ion-label>
+            <ion-input type="text" [value]="detailData.subscriber.name.given_name" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Surname:</ion-label>
+            <ion-input type="text" [value]="detailData.subscriber.name.surname" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Email:</ion-label>
+            <ion-input type="email" [value]="detailData.subscriber.email_address" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Payer Id:</ion-label>
+            <ion-input type="text" [value]="detailData.subscriber.payer_id" disabled="true"></ion-input>
+          </ion-item>
+          <!-- Add more personal information fields here -->
+        </ion-card-content>
+      </ion-card>
+
+      <!-- membership data -->
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Membership</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-item>
+            <ion-label position="stacked">Status:</ion-label>
+            <ion-input type="text" [value]="detailData.status" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Status Update time:</ion-label>
+            <ion-input type="text" [value]="detailData.status_update_time" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Subscription Id:</ion-label>
+            <ion-input type="text" [value]="detailData.id" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Plan Id:</ion-label>
+            <ion-input type="text" [value]="detailData.plan_id" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Start Time:</ion-label>
+            <ion-input type="text" [value]="detailData.start_time" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Quantity:</ion-label>
+            <ion-input type="text" [value]="detailData.quantity" disabled="true"></ion-input>
+          </ion-item>
+          <!-- Add more personal information fields here -->
+        </ion-card-content>
+      </ion-card>
+
+      <!-- Billing Information Section -->
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Billing Information</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-item>
+            <ion-label position="stacked">Currency Code:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.last_payment.amount.currency_code" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Value:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.last_payment.amount.value" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Last Payment Time:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.last_payment.time" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Next Billing Time:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.next_billing_time" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Failed Payments Counts:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.failed_payments_count" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">tenure_type:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.cycle_executions[0].tenure_type" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">sequence:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.cycle_executions[0].sequence" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">cycles_completed:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.cycle_executions[0].cycles_completed" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">cycles_remaining:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.cycle_executions[0].cycles_remaining" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">current_pricing_scheme_version:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.cycle_executions[0].current_pricing_scheme_version" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">total_cycles:</ion-label>
+            <ion-input type="text" [value]="detailData.billing_info.cycle_executions[0].total_cycles" disabled="true"></ion-input>
+          </ion-item>
+          <!-- Add more billing information fields here -->
+        </ion-card-content>
+      </ion-card>
+
+      <!-- Shipping Address Section -->
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Shipping Address</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-item>
+            <ion-label position="stacked">Address Line 1:</ion-label>
+            <ion-input type="text" [value]="detailData.subscriber.shipping_address.address.address_line_1" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Admin Area 2:</ion-label>
+            <ion-input type="text" [value]="detailData.subscriber.shipping_address.address.admin_area_2" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Admin Area 1:</ion-label>
+            <ion-input type="text" [value]="detailData.subscriber.shipping_address.address.admin_area_1" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Postal Code:</ion-label>
+            <ion-input type="text" [value]="detailData.subscriber.shipping_address.address.postal_code" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Country:</ion-label>
+            <ion-input type="text" [value]="detailData.subscriber.shipping_address.address.country_code" disabled="true"></ion-input>
+          </ion-item>
+          <!-- Add more shipping address fields here -->
+        </ion-card-content>
+      </ion-card>
+
+      <!-- Other Information Section -->
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Other Information</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-item>
+            <ion-label position="stacked">create_time:</ion-label>
+            <ion-input type="text" [value]="detailData.create_time" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">update_time:</ion-label>
+            <ion-input type="text" [value]="detailData.update_time" disabled="true"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">plan_overridden:</ion-label>
+            <ion-input type="text" [value]="detailData.plan_overridden" disabled="true"></ion-input>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+
+    </ion-card>
+  </ion-content>
+</ion-modal>

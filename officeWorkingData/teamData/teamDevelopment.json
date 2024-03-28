@@ -1,0 +1,127 @@
+[
+    {
+        "teamId": 72,
+        "teamName": "PVH Development ",
+        "users": [
+            138,
+            140,
+            254,
+            143,
+            288,
+            301,
+            141
+        ],
+        "managers": [
+            203
+        ]
+    },
+    {
+        "teamId": 88,
+        "teamName": "Development",
+        "users": [
+            141,
+            255,
+            281,
+            142,
+            139,
+            134,
+            147,
+            143,
+            254,
+            138,
+            278,
+            304,
+            305,
+            297,
+            293,
+            294,
+            303,
+            295,
+            353,
+            357,
+            354,
+            352,
+            344,
+            398,
+            403,
+            382,
+            396,
+            389,
+            394,
+            381,
+            383,
+            358
+        ],
+        "managers": [
+            134,
+            354,
+            141
+        ]
+    },
+    {
+        "teamId": 104,
+        "teamName": "Development (Abhinav)",
+        "users": [
+            305,
+            383,
+            382
+        ],
+        "managers": [
+            147
+        ]
+    },
+    {
+        "teamId": 105,
+        "teamName": "Development (Faisal)",
+        "users": [
+            294,
+            293,
+            297
+        ],
+        "managers": [
+            143
+        ]
+    },
+    {
+        "teamId": 106,
+        "teamName": "Development (Hind)",
+        "users": [
+            396,
+            352,
+            389,
+            394,
+            295,
+            353,
+            358
+        ],
+        "managers": [
+            138
+        ]
+    },
+    {
+        "teamId": 107,
+        "teamName": "Development (Parul)",
+        "users": [
+            304,
+            357,
+            142,
+            254,
+            278,
+            255
+        ],
+        "managers": [
+            141
+        ]
+    },
+    {
+        "teamId": 108,
+        "teamName": "Development (Umang)",
+        "users": [
+            381,
+            281
+        ],
+        "managers": [
+            403
+        ]
+    }
+]

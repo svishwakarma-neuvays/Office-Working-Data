@@ -1,0 +1,96 @@
+[
+    {
+        "teamId": 55,
+        "teamName": "IT",
+        "users": [
+            262
+        ],
+        "managers": [
+            183,
+            203
+        ]
+    },
+    {
+        "teamId": 70,
+        "teamName": "Freelancer",
+        "users": [
+            288
+        ],
+        "managers": []
+    },
+    {
+        "teamId": 71,
+        "teamName": "PMO",
+        "users": [
+            300
+        ],
+        "managers": [
+            203
+        ]
+    },
+    {
+        "teamId": 72,
+        "teamName": "PVH Development ",
+        "users": [
+            138,
+            140,
+            254,
+            143,
+            288,
+            301,
+            141
+        ],
+        "managers": [
+            203
+        ]
+    },
+    {
+        "teamId": 75,
+        "teamName": "Great Eastern",
+        "users": [
+            161,
+            170,
+            150
+        ],
+        "managers": [
+            189
+        ]
+    },
+    {
+        "teamId": 78,
+        "teamName": "RPA",
+        "users": [
+            199
+        ],
+        "managers": [
+            183
+        ]
+    },
+    {
+        "teamId": 81,
+        "teamName": "Manali",
+        "users": [],
+        "managers": [
+            207,
+            204
+        ]
+    },
+    {
+        "teamId": 96,
+        "teamName": "Spot/Petvays",
+        "users": [
+            196,
+            155,
+            298
+        ],
+        "managers": [
+            155
+        ]
+    },
+    {
+        "teamId": 109,
+        "teamName": "Mckinsol website",
+        "users": [],
+        "managers": []
+    }
+]

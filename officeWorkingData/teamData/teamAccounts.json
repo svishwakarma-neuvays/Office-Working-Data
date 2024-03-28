@@ -1,0 +1,15 @@
+[
+    {
+        "teamId": 102,
+        "teamName": "accounts",
+        "users": [
+            201,
+            217
+        ],
+        "managers": [
+            217,
+            354,
+            204
+        ]
+    }
+]

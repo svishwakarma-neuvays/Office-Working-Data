@@ -1,0 +1,35 @@
+[
+    {
+        "teamId": 82,
+        "teamName": "Sales (Santosh)",
+        "users": [
+            349,
+            408
+        ],
+        "managers": [
+            189
+        ]
+    },
+    {
+        "teamId": 98,
+        "teamName": "Sales",
+        "users": [
+            189,
+            199,
+            190,
+            195,
+            198,
+            397,
+            192,
+            298,
+            196,
+            191,
+            183,
+            392
+        ],
+        "managers": [
+            183
+        ]
+    }
+    
+]
