@@ -1,5 +1,5 @@
 const dotenv = require("dotenv");
-const fetch = require("node-fetch");
+// const fetch = require("node-fetch");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const readline = require("readline").createInterface({
   input: process.stdin,
@@ -17,7 +17,7 @@ async function run() {
       // Loop to keep prompting for input
       const prompt = await new Promise((resolve) => {
         readline.question(
-          '-----Enter your prompt (or type "exit" to quit):---> ',
+          'You:---Enter your prompt (or type "exit" to quit):---> ',
           resolve
         );
       });
@@ -29,7 +29,7 @@ async function run() {
       const result = await model.generateContent(prompt);
       const response = await result.response;
       const text = response.text();
-      console.log(text);
+      console.log("AI:---> ",text);
     }
 
     readline.close(); // Close the readline interface after exiting the loop
