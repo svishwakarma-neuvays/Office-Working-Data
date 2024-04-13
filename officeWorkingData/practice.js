@@ -235,19 +235,22 @@
 // console.log(4);
 
 // Simulate HTTP request (Including network delay)
-const getUser = async (id) => {
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    return `User ${id}`;
-};
-// Execution
-(async () => {
-    let usersCount = 10;
-    let benchmarkIdentifier = `sync`
+// const getUser = async (id) => {
+//     await new Promise(resolve => setTimeout(resolve, 1000));
+//     return `User ${id}`;
+// };
+// // Execution
+// (async () => {
+//     let usersCount = 10;
+//     let benchmarkIdentifier = `sync`
    
-    console.time(benchmarkIdentifier);
-    for (let i = 1; i <= usersCount; i++) {
-        const user = await getUser(i);
-        console.log(user);
-    }
-    console.timeEnd(benchmarkIdentifier);
-})();
+//     console.time(benchmarkIdentifier);
+//     for (let i = 1; i <= usersCount; i++) {
+//         const user = await getUser(i);
+//         console.log(user);
+//     }
+//     console.timeEnd(benchmarkIdentifier);
+// })();
+
+let arr = [6, 4, 15, 10];
+console.log(arr.sort())

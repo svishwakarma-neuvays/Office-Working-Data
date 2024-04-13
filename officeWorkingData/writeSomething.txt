@@ -60,3 +60,230 @@ find and aggrigations
 deployement 
 movie - table no 1
 streaming
+
+-02/04/2024
+learning - javascript , mongodb with nodejs
+projects - nodejs project with mongo Database
+then, start DSA learning and solving questions in parallal.
+
+mongodb with nodejs >
+
+
+
+Task - project setup- Backend for Neuavys Pro website.
+Category- Backend
+planned date- 2 April 2024
+actual date- 2 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - createAPI for storing the details of India Training Hub form.
+Category- Backend
+planned date- 2 April 2024
+actual date- 2 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - create API for storing the data of the idmx form.
+Category- Backend
+planned date- 2 April 2024
+actual date- 2 April 2024
+planned hrs - 2.5
+actual hrs - 2.5 ✅
+
+Task - Create API for storing data of contactUs form.
+Category- Backend
+planned date- 2 April 2024
+actual date- 2 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - create API for storing the data of the ispx form.
+Category- Backend
+planned date- 3 April 2024
+actual date- 3 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - R&D in for creating and handling captcha for contactUs page.
+Category- Backend
+planned date- 3 April 2024
+actual date- 3 April 2024
+planned hrs - 3
+actual hrs - 3 ✅
+
+Task - Create API for captcha creating and verify the captcha.
+Category- Backend
+planned date- 3 April 2024
+actual date- 3 April 2024
+planned hrs - 3.5
+actual hrs - 3.5 ✅
+
+Task - making APIS for fetch data according to the requirements for the Admin Dashboard.
+Category- Backend
+planned date- 4 April 2024
+actual date- 4 April 2024
+planned hrs - 4.5
+actual hrs - 4.5 ✅
+
+Task - create api for the Become Partner page which also handles the file upload.
+Category- Backend
+planned date- 4 April 2024
+actual date- 4 April 2024
+planned hrs - 3
+actual hrs - 3 ✅
+
+Task - helping frontend to integrate apis.
+Category- Backend
+planned date- 4 April 2024
+actual date- 4 April 2024
+planned hrs - 1
+actual hrs - 1 ✅
+
+Task - creating captcha api for the become partner page.
+Category- Backend
+planned date- 5 April 2024
+actual date- 5 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - create api for verify the captcha on the become partner and handle the session storage for more than one captcha stored in session. 
+Category- Backend
+planned date- 5 April 2024
+actual date- 5 April 2024
+planned hrs - 4
+actual hrs - 4 ✅
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+tasks for week => 8/04/2024 - 12/04/2024
+
+Task 81 - create api for the dashboard to show all contact details come from the frontend.
+Category- Backend
+planned date- 8 April 2024
+actual date- 8 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 82 - create apis to get the data of the idmx page.
+Category- Backend
+planned date- 8 April 2024
+actual date- 8 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 83 - create new api to show the data of the isox page for the dashboard.
+Category- Backend
+planned date- 8 April 2024
+actual date- 8 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 84 - create api to show the data of the become partner page for the dashboard.
+Category- Backend
+planned date- 8 April 2024
+actual date- 8 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 85 - create new api for captcha on Become Partner page.
+Category- Backend
+planned date- 9 April 2024
+actual date- 9 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 86 - update the captcha verify api that accepts both pages captcha and verify depending on payload.
+Category- Backend
+planned date- 9 April 2024
+actual date- 9 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 87 - make api for admin login, user registration and authentication
+Category- Backend
+planned date- 10 April 2024
+actual date- 10 April 2024
+planned hrs - 3
+actual hrs - 3 ✅
+
+Task 88 - add email service in the indTrainingHub api and test the email working.
+Category- Backend
+planned date- 10 April 2024
+actual date- 10 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 89 - fix the file upload part used in the apis to show in the frontend and add validation while uploading 
+Category- Backend
+planned date- 10 April 2024
+actual date- 10 April 2024
+planned hrs - 3.5
+actual hrs - 3 ✅
+
+Task 90 - create the api to upload and save client logo with details.
+Category- Backend
+planned date- 11 April 2024
+actual date- 11 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 91 - create the api to fetch the logo with the other data to show in frontend
+Category- Backend
+planned date- 11 April 2024
+actual date- 11 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 92 - create the remove api to remove the logo from admin side and handle validations on delete.
+Category- Backend
+planned date- 11 April 2024
+actual date- 11 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 93 - create the api to update the client logo to upload new and other details.
+Category- Backend
+planned date- 11 April 2024
+actual date- 11 April 2024
+planned hrs - 2.5
+actual hrs - 2.5 ✅
+
+Task 94 - create the api to upload and save blogs with details.
+Category- Backend
+planned date- 12 April 2024
+actual date- 12 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 95 - create the api to fetch the blogs to show in frontend.
+Category- Backend
+planned date- 12 April 2024
+actual date- 12 April 2024
+planned hrs - 1
+actual hrs - 1 ✅
+
+Task 96 - create the remove api to remove the blog from admin side and handle validations on delete.
+Category- Backend
+planned date- 12 April 2024
+actual date- 12 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 97 - create the api to update the client blog to upload new and handle validations with file & other details.
+Category- Backend
+planned date- 12 April 2024
+actual date- 12 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 98 - modifying the apis which are used in admin panel according to the frontend.
+Category- Backend
+planned date- 12 April 2024
+actual date- 12 April 2024
+planned hrs - 1.5
+actual hrs - 1.5 ✅
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
