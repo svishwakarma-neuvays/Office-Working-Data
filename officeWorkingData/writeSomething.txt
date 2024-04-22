@@ -287,3 +287,68 @@ actual hrs - 1.5 ✅
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+tasks for week => 15/04/2024 - 19/04/2024
+
+Task 128 - testing the website workings with the frontend, api testing and do changes if needed.
+Category- Backend
+planned date- 15 April 2024
+actual date- 15 April 2024
+planned hrs - 3
+actual hrs - 2 ✅
+
+Task 129 - R&D on the project deployement on the server and how to map the IP of the custom domain of the website.
+planned date- 15 April 2024
+actual date- 15 April 2024
+planned hrs - 5.30
+actual hrs - 5 ✅
+
+Task 130 - R&D on VPS hosting for server and DNS working and map custom  domain. 
+Category- Backend
+planned date- 16 April 2024
+actual date- 16 April 2024
+planned hrs - 4
+actual hrs - 4 ✅
+
+Task 131 - R&D on handling of server and databases for projects and and working on productions level and exploaring the plateform available for the whole project hosing and their working.
+Category- Backend
+planned date- 16 April 2024
+actual date- 16 April 2024
+planned hrs - 4.30
+actual hrs - 4 ✅
+
+Task 132 - Optimizing the apis to get data for frontend using node-caching and modifying apis as frontend needs
+Category- Backend
+planned date- 17 April 2024
+actual date- 17 April 2024
+planned hrs - 4
+actual hrs - 3 ✅
+
+Task 133 - create api for gallery to store files/images and data of some fields.
+Category- Backend
+planned date- 18 April 2024
+actual date- 18 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 134 - create the api to get the data of gallery stored and fetch files from to show.
+Category- Backend
+planned date- 18 April 2024
+actual date- 18 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task 135 - creating the api to update the data of the gallery table and files update and handle the validations while update.
+Category- Backend
+planned date- 18 April 2024
+actual date- 18 April 2024
+planned hrs - 2.5
+actual hrs - 2 ✅
+
+Task 136 - creating the api to remove the data of the gallery and handle the validations while delete.
+Category- Backend
+planned date- 18 April 2024
+actual date- 18 April 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
