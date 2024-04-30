@@ -356,3 +356,18 @@ const istOptions = {
 const istDateTimeString = originalDate.toLocaleString('en-IN', istOptions);
 console.log(istDateTimeString); // Output: "Tuesday, 14 March 2024, 12:14:33 AM IST"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

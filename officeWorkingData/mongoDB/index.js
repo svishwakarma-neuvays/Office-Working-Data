@@ -26,8 +26,8 @@ const adder = async () => {
 //   const ss = await Student.find({height:{$eq:44}});
 //   const ss = await Student.find({height:{$gte:5}});
 //   const ss = await Student.find({height:{$lte:5}});
-//   const ss = await Student.find({height:{$in:[5,44]}});
-  const ss = await Student.find({height:{$nin:[5,44]}});
+  const ss = await Student.find({height:{$in:[5,44]}});
+  // const ss = await Student.find({height:{$nin:[5,44]}});
   console.log(ss);
 };
 

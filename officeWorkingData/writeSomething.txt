@@ -41,7 +41,6 @@ learn javascript from this -
 
 learn about headers and authorizations..
 
-complete naukari.com profile
 
 
 
@@ -351,4 +350,48 @@ actual date- 18 April 2024
 planned hrs - 2
 actual hrs - 2 ✅
 
+Task 138 - optimizing apis of the get data by applying node-cache for the neuvays website admin dashboard
+Category- Backend
+planned date- 19 April 2024
+actual date- 19 April 2024
+planned hrs - 4
+actual hrs - 4 ✅
+
+Task 140 - R&D on caching application the apis for the good response apis
+Category- Backend
+planned date- 19 April 2024
+actual date- 19 April 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+tasks for week => 22/04/2024 - 26/04/2024
+
+Task 144 - Testing all the apis working and also on the forntend side working of the neuvays website with admin dashboard
+Category- Backend
+planned date- 22 April 2024
+actual date- 22 April 2024
+planned hrs - 4
+actual hrs - 4 ✅
+
+Task 145 - working with frontend team to help them in handling api integration and testing after the work done.
+Category- Backend
+planned date- 23 April 2024
+actual date- 23 April 2024
+planned hrs - 4
+actual hrs - 4 ✅
+
+Task 146 - R&D on file handling for fetching the images/files from the server with frontend side.
+Category- Backend
+planned date- 24 April 2024
+actual date- 24 April 2024
+planned hrs - 4
+actual hrs - 4 ✅
+
+Task 146 - r&d on image and file handling on cloudinary with the node expressjs using multer
+Category- Backend
+planned date- 25 April 2024
+actual date- 25 April 2024
+planned hrs - 4
+actual hrs - 4 ✅
