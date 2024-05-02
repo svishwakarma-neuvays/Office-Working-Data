@@ -22,12 +22,6 @@ exports.register = async (req, res) => {
       },
     });
 
-    // res.status(201).json({
-    //   success: true,
-    //   message: "User registered successfully !!",
-    //   user,
-    // });
-
     const token = await user.generateToken();
 
     user.password = undefined;
@@ -81,6 +75,138 @@ exports.login = async (req, res) => {
       succes: true,
       user,
       token,
+    });
+  } catch (error) {
+    res.status(500).json({
+      succes: false,
+      message: error.message,
+    });
+  }
+};
+
+//log-out
+exports.logOut = async (req, res) => {
+  try {
+    res
+      .status(200)
+      .cookie("token", null, { expires: new Date(Date.now()), httpOnly: false })
+      .json({
+        succes: true,
+        message: "Logged Out !!",
+      });
+  } catch (error) {
+    res.status(500).json({
+      succes: false,
+      message: error.message,
+    });
+  }
+};
+
+//follow-user
+exports.followUnfollowUser = async (req, res) => {
+  try {
+    const userToFollow = await User.findById(req.params.id);
+    const loggedInUser = await User.findById(req.user._id);
+
+    if (!userToFollow) {
+      return res.status(404).json({
+        succes: false,
+        message: "User to follow not found !",
+      });
+    }
+
+    if (loggedInUser.following.includes(userToFollow._id)) {
+      const followingIndex = loggedInUser.following.indexOf((userId) =>
+        userId.equals(userToFollow._id)
+      );
+      const followersIndex = loggedInUser.followers.indexOf((userId) =>
+        userId.equals(userToFollow._id)
+      );
+
+      loggedInUser.following.splice(followingIndex, 1);
+      userToFollow.followers.splice(followersIndex, 1);
+      await loggedInUser.save();
+      await userToFollow.save();
+
+      return res.status(200).json({
+        succes: true,
+        message: "Unfollowed successfully !!",
+      });
+    } else {
+      loggedInUser.following.push(userToFollow._id);
+      userToFollow.followers.push(loggedInUser._id);
+      await loggedInUser.save();
+      await userToFollow.save();
+
+      res.status(200).json({
+        succes: true,
+        message: "followed succssfully !!",
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      succes: false,
+      message: error.message,
+    });
+  }
+};
+
+exports.updatePassword = async (req, res) => {
+  try {
+    const user = await User.findById(req.user._id).select("+password");
+
+    const { oldPassword, newPassword } = req.body;
+
+    if (!oldPassword || !newPassword) {
+      return res.status(400).json({
+        success: false,
+        message: "please provide oldPassword and newPassword !",
+      });
+    }
+
+    const isMatched = await user.matchPassword(oldPassword);
+    if (!isMatched) {
+      return res.status(400).json({
+        succes: false,
+        message: "Incorrect Old Password !",
+      });
+    }
+
+    user.password = newPassword;
+    await user.save();
+
+    res.status(200).json({
+      success: true,
+      message: "Updated new password !!",
+    });
+  } catch (error) {
+    res.status(500).json({
+      succes: false,
+      message: error.message,
+    });
+  }
+};
+
+exports.updateProfile = async (req, res) => {
+  try {
+    const user = await User.findById(req.user._id);
+
+    const { name, email } = req.body;
+
+    if (name) {
+      user.name = name;
+    }
+    if (email) {
+      user.email = email;
+    }
+
+    // user Avatar : TODO
+
+    await user.save();
+
+    res.status(200).json({
+      succes: true,
+      message: "profile Updated successfully !!",
     });
   } catch (error) {
     res.status(500).json({
