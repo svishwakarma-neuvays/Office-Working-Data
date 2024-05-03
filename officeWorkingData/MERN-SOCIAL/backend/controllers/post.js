@@ -1,5 +1,6 @@
 // const { use } = require("../app");
 const Post = require("../models/post");
+const user = require("../models/user");
 const User = require("../models/user");
 
 exports.createPost = async (req, res) => {
@@ -160,6 +161,106 @@ exports.updateCaption = async (req, res) => {
       success: true,
       message: "caption Updated !!",
     });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+exports.addUpdateComment = async (req, res) => {
+  try {
+    const { newComment } = req.body;
+    const post = await Post.findById(req.params.id);
+
+    if (!newComment) {
+      return res.status(404).json({
+        success: false,
+        message: "add comment !",
+      });
+    }
+    if (!post) {
+      return res.status(404).json({
+        success: false,
+        message: "post not found !",
+      });
+    }
+
+    const payload = {
+      user: req.user._id,
+      comment: newComment,
+    };
+
+    //checking that if this user have a comment or not
+    // if have store the index of the user in comments array of the post.
+    let commentIndex = -1;
+    post.comments.forEach((element, index) => {
+      if (element.user.toString() === req.user._id.toString()) {
+        console.log("index", index);
+        return (commentIndex = index);
+      }
+    });
+    if (commentIndex !== -1) {
+      post.comments[commentIndex].comment = newComment;
+      await post.save();
+
+      return res.status(200).json({
+        success: true,
+        message: "comment updated !!",
+      });
+    } else {
+      post.comments.push(payload);
+      await post.save();
+
+      res.status(200).json({
+        success: true,
+        message: "comment added !!",
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+exports.deleteComment = async (req, res) => {
+  try {
+    const post = await Post.findById(req.params.id);
+    if (!post) {
+      return res.status(404).json({
+        success: false,
+        message: "post not found !",
+      });
+    }
+
+    if (post.owner.toString() === req.user._id.toString()) {
+      post.comments.forEach((element, index) => {
+        if (element._id.toString() === req.body.commentId.toString()) {
+          return post.comments.splice(index, 1);
+        }
+      });
+      await post.save();
+      return res.status(200).json({
+        success: true,
+        message: "this comment is deleted on your post !!",
+      });
+    } else {
+      post.comments.forEach((element, index) => {
+        if (element.user.toString() === req.user._id.toString()) {
+          if (element._id.toString() === req.body.commentId.toString()) {
+            return post.comments.splice(index, 1);
+          }
+        }
+      });
+      await post.save();
+      res.status(200).json({
+        success: true,
+        message: "your comment is deleted on this post !!",
+      });
+    }
   } catch (error) {
     res.status(500).json({
       success: false,

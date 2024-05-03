@@ -6,6 +6,8 @@ const {
   deletePost,
   getPostsOfFollowing,
   updateCaption,
+  addUpdateComment,
+  deleteComment,
 } = require("../controllers/post");
 
 const router = express.Router();
@@ -18,5 +20,9 @@ router
   .delete(isAuthenticated, deletePost);
 
 router.route("/post").get(isAuthenticated, getPostsOfFollowing);
+router
+  .route("/post/comment/:id")
+  .put(isAuthenticated, addUpdateComment)
+  .delete(isAuthenticated, deleteComment);
 
 module.exports = router;
