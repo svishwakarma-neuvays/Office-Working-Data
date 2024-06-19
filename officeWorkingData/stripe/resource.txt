@@ -1,0 +1,17 @@
+https://medium.com/@Bigscal-Technologies/how-to-integrate-stripe-payment-apis-using-node-js-566bfdad5850
+
+https://medium.com/web-development-with-sumit/how-to-make-payment-with-stripe-using-nodejs-e4581d357dcd
+
+https://www.digitalocean.com/community/tutorials/nodejs-intro-stripe-payments
+
+https://docs.stripe.com/api/checkout/sessions
+
+
+//*
+https://chatgpt.com/share/9645be8c-4a25-49d0-b969-84c724c084f7
+
+
+
+
+
+//default profile image "https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg"

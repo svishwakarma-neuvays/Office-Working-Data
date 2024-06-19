@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation</title>
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+  <form id="donation-form">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="contactNo" placeholder="Contact Number" required>
+    <input type="text" name="location" placeholder="Location" required>
+    <input type="number" name="amount" placeholder="Amount" required>
+    <select name="currency" required>
+      <option value="usd">USD</option>
+      <option value="inr">INR</option>
+    </select>
+    <button type="submit">Donate</button>
+  </form>
+
+  <script>
+    const stripe = Stripe('pk_test_51PK1lOGqTfHue8GpNhG31rNONRMgVINUeSgaaTzuKkI7pkaPDzttyHGQFOwOuAOJnQqoN8DF6FrBKkFyvcZ8QQpt00DBGLfEjg');
+
+    const donationForm = document.getElementById('donation-form');
+    donationForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formData = new FormData(donationForm);
+      const data = Object.fromEntries(formData);
+
+      const response = await fetch('https://625d-103-44-53-141.ngrok-free.app/api/v1/checkout', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+
+      const session = await response.json();
+
+      const result = await stripe.redirectToCheckout({
+        sessionId: session.id,
+      });
+
+      if (result.error) {
+        alert(result.error.message);
+      }
+    });
+  </script>
+</body>
+</html>

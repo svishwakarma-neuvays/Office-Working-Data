@@ -285,6 +285,9 @@ planned hrs - 1.5
 actual hrs - 1.5 ✅
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+project - Neuvays website 
+
+Backend
 
 tasks for week => 15/04/2024 - 19/04/2024
 
@@ -395,3 +398,353 @@ planned date- 25 April 2024
 actual date- 25 April 2024
 planned hrs - 4
 actual hrs - 4 ✅
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+tasks for week => 06/05/2024 - 10/05/2024
+
+sick leave on 06/05/2024
+
+Project - Smileaday
+
+Task - started new project for Smileaday, Backend project setup.
+Category- Backend
+planned date- 07 May 2024
+actual date- 07 May 2024
+planned hrs - 1
+actual hrs - 1 ✅
+
+Task - create server, database connection,  write model and api for registration. 
+Category- Backend
+planned date- 07 May 2024
+actual date- 07 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - handle jsonwebtoken for the token and hash the password using bcrypt and save these in cookies when new user register. 
+Category- Backend
+planned date- 07 May 2024
+actual date- 07 May 2024
+planned hrs - 3
+actual hrs - 3 ✅
+
+Task - create login api for the user and handle token in cookies.
+Category- Backend
+planned date- 07 May 2024
+actual date- 07 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - testing the user registration and login apis with validations and authentication.
+Category- Backend
+planned date- 07 May 2024
+actual date- 07 May 2024
+planned hrs - 0.5
+actual hrs - 0.5 ✅
+
+Task - create api for the logout, handle the login authentication and token in this api.
+Category- Backend
+planned date- 08 May 2024
+actual date- 08 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - make api for become a volunteer page to submit the form.
+Category- Backend
+planned date- 08 May 2024
+actual date- 08 May 2024
+planned hrs - 1
+actual hrs - 1 ✅
+
+Task - create api to get the become a voluenteer form for the admin and handle the authentication in this api.
+Category- Backend
+planned date- 08 May 2024
+actual date- 08 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - make api for the reach Us page to submit the form.
+Category- Backend
+planned date- 08 May 2024
+actual date- 08 May 2024
+planned hrs - 1
+actual hrs - 1 ✅
+
+Task - create api to get the contactUs/reachUs form for the admin and handle the authentication in this api.
+Category- Backend
+planned date- 08 May 2024
+actual date- 08 May 2024
+planned hrs - 2
+actual hrs - 1.5 ✅
+
+Task - make api for the about page to add the members data with given fields from frontend and handle authentication for this api.
+Category- Backend
+planned date- 09 May 2024
+actual date- 09 May 2024
+planned hrs - 2
+
+Task - make the api to get the data of all the members of the about page.
+Category- Backend
+planned date- 09 May 2024
+actual date- 09 May 2024
+planned hrs - 1
+
+Task - make apis for update and remove the members data of the about page and handle authentication in this api.
+Category- Backend
+planned date- 09 May 2024
+actual date- 09 May 2024
+planned hrs - 4
+
+Task - make api for the gallery page to add the image with given fields from frontend and handle authentication for this api.
+Category- Backend
+planned date- 09 May 2024
+actual date- 09 May 2024
+planned hrs - 2
+
+---------------------------------------------------------------------------------------------------------------------------------------------till here updated on portal---------------
+
+Task - make api to get the images and data needed for the gallery page.
+Category- Backend
+planned date- 10 May 2024
+actual date- 10 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+
+Task - create apis to update and remove the gallery image and data for the gallery page from admin panel and handle authentication in the apis.
+Category- Backend
+planned date- 10 May 2024
+actual date- 10 May 2024
+planned hrs - 3
+actual hrs - 3 ✅
+
+Task - create the api to add blogs from admin side with give fields from frontend and handle auth in the api.
+Category- Backend
+planned date- 10 May 2024
+actual date- 10 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - make api to get the blogs for the blog page.
+Category- Backend
+planned date- 10 May 2024
+actual date- 10 May 2024
+planned hrs - 1
+actual hrs - 1 ✅
+
+Task - create apis to update and remove the blogs from the admin panel handle the  auth for the apis.
+Category- Backend
+planned date- 10 May 2024
+actual date- 10 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+tasks for week => 13/05/2024 - 17/05/2024
+
+Project - Smileaday
+
+Task - R&D on razorpay payment gateway, for implementatin on the donation page of the smileaday website.
+Category- Backend
+planned date- 13 May 2024
+actual date- 13 May 2024
+planned hrs - 9
+actual hrs - 9 ✅
+
+Task - create api for razorpay and integrate the api on backend side for the payment gateway according to the requirement and resolving issues during payment.
+Category- Backend
+planned date- 14 May 2024
+actual date- 14 May 2024
+planned hrs - 9
+actual hrs - 9 ✅
+
+Task - resolving some errors on payment gateway integration of razorpay for smileaday website.
+Category- Backend
+planned date- 15 May 2024
+actual date- 15 May 2024
+planned hrs - 4.5
+actual hrs - 4.5 ✅
+
+Task - coordinate with the frontend side sitting with Vikash to help in the integrating the razorpay on frontend side.
+Category- Backend
+planned date- 15 May 2024
+actual date- 15 May 2024
+planned hrs - 4.5
+actual hrs - 4.5 ✅
+
+Task - R&D on stripe payment gateway, for implementatin on the donation page of the smileaday website.
+Category- Backend
+planned date- 16 May 2024
+actual date- 16 May 2024
+planned hrs - 9
+actual hrs - 9 ✅
+
+Task - creating api for the admin page for getting all the payments and testing the razorpay apis.
+Category- Backend
+planned date- 17 May 2024
+actual date- 17 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - resolving error and helping frontend in razorpay payment gateway, having some issues.
+Category- Backend
+planned date- 17 May 2024
+actual date- 17 May 2024
+planned hrs - 4.5
+actual hrs - 4.5 ✅
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+tasks for week => 20/05/2024 - 24/05/2024
+
+Project - Smileaday
+
+
+Task - testing of the razorpay payment gateway from backend and frontend side both, and resolving errors.
+Category- Backend
+planned date- 20 May 2024
+actual date- 20 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - r&d on the paypal payment gateway for the donation payment on the smileaday donation page.
+Category- Backend
+planned date- 20 May 2024
+actual date- 20 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - working on the paypal payment gateway, create api for the payment and test.
+Category- Backend
+planned date- 21 May 2024
+actual date- 21 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - create api for the admin page to get all the donation payments with paypal and test it.
+Category- Backend
+planned date- 21 May 2024
+actual date- 21 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - working with the frontend for the integration of the paypal payment apis, resolve issues in the integration.
+Category- Backend
+planned date- 22 May 2024
+actual date- 22 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - working on the stripe payment gateway to integrate the payment apis for for the donation on smileaday.
+Category- Backend
+planned date- 22 May 2024
+actual date- 22 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - create donation api for the payment through stripe payments using stripe payment gateay apis and testing the working.
+Category- Backend
+planned date- 23 May 2024
+actual date- 23 May 2024
+actual hrs - 4.5 ✅
+
+Task - create the verify api to verify the stripe payment using stripe apis and store the user data.
+Category- Backend
+planned date- 23 May 2024
+actual date- 23 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - resolve the issue of no international payments comes due the Indian Government and RBI rules on International payments through  stripe.
+Category- Backend
+planned date- 24 May 2024
+actual date- 24 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - complete the stripe payment integration from server side after the international rules resolved.
+Category- Backend
+planned date- 24 May 2024
+actual date- 24 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+-----till here tasks are updated on portal----
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+tasks for week => 28/05/2024 - 31/05/2024
+
+Project - 
+
+
+Task - working with frontend for the integration.
+Category- Backend
+planned date- 28 May 2024
+actual date- 28 May 2024
+planned hrs - 1
+actual hrs - 1 ✅
+
+Task - update paypal payment integration and apis according to frontend requirenments and test it.
+Category- Backend
+planned date- 28 May 2024
+actual date- 28 May 2024
+planned hrs - 2.5
+actual hrs - 2.5 ✅
+
+Task - r&d on the webhook , how it works and where it will be used in the stripe payment  integration.
+Category- Backend
+planned date- 28 May 2024
+actual date- 28 May 2024
+planned hrs - 3.5   
+actual hrs - 3.5 ✅
+
+Task - creating the api for the stripe payment verification and store data in the Db and applying the webhook api to the business stripe account and test its working.
+Category- Backend
+planned date- 29 May 2024
+actual date- 29 May 2024
+planned hrs - 4.5
+actual hrs - 4 ✅
+
+Task - r&d on the international business acounts for the stripe and the indian how to resolve the issue of the international payments.
+Category- Backend
+planned date- 29 May 2024
+actual date- 29 May 2024
+planned hrs - 4.5
+actual hrs - 4.5 ✅
+
+Task - handle the email service for the smileaday apis and adding the email service to the contactUs api.
+Category- Backend
+planned date- 30 May 2024
+actual date- 30 May 2024
+planned hrs - 4.5
+actual hrs - 4.5 ✅
+
+Task - testing of the frontend of the smileaday website that all features are working as axpected or not for the deployment.
+Category- Backend
+planned date- 30 May 2024
+actual date- 30 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - create the email template for the payment success with the dynamic details to bend to the the doner on the smileaday.
+Category- Backend
+planned date- 31 May 2024
+actual date- 31 May 2024
+planned hrs - 1
+actual hrs - 1 ✅
+
+Task - added the emial service in the payment integration for the all three of the payments gateways with related dynamic data of the doner.
+Category- Backend
+planned date- 31 May 2024
+actual date- 31 May 2024
+planned hrs - 2
+actual hrs - 2 ✅
+
+Task - r&d on webhooks and working of hte webhooks and how can be used and how can be beneficial for the payment gateway system like stripe razorpay.
+Category- Backend
+planned date- 31 May 2024
+actual date- 31 May 2024
+planned hrs - 5.5
+actual hrs - 5 ✅
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

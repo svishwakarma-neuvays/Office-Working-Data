@@ -1,0 +1,44 @@
+<button id="downloadButton">Download Excel</button>
+
+</div>
+
+<!-- Razorpay Script -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    
+    // Function to download the Excel file using Fetch API
+    function downloadExcelFile() {
+        console.log("Button clicked"); // Debug message
+        fetch('https://f320-103-44-53-141.ngrok-free.app/api/v1/payments/razorpay', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', // Correct Content-Type
+                "ngrok-skip-browser-warning": "true",
+            }
+            // body: JSON.stringify({ /* any necessary request body */ })
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.blob();
+            })
+            .then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.setAttribute('download', 'all_payments.xlsx');
+                document.body.appendChild(link);
+                link.click();
+
+                // Ensure link.parentNode is not null before removing it
+                if (link.parentNode) {
+                    link.parentNode.removeChild(link);
+                }
+            })
+            .catch(error => console.error('There was a problem with the fetch operation:', error));
+    }
+    // Attach event listener to the button
+    document.getElementById("downloadButton").addEventListener("click", downloadExcelFile);
+    // Call the function to download the file
+    // downloadExcelFile();
